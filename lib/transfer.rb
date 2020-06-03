@@ -17,6 +17,8 @@ class Transfer
   def execute_transaction
     puts "what status #{@status}"
     puts "what sender #{@sender}"
+    puts "sender status #{@sender.status}"
+    puts "sender balance #{@sender.balance}"
     if @status == "complete"
       puts "Transaction was already excuted"
       
