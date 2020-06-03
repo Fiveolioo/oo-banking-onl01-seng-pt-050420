@@ -15,6 +15,7 @@ class Transfer
   end
   
   def execute_transaction
+    puts "what status #{@status}"
     if @status == "complete"
       puts "Transaction was already excuted"
       
