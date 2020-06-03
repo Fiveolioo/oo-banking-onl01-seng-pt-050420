@@ -21,6 +21,7 @@ class Transfer
       puts "Transaction was already excuted"
       
     elsif !@sender.valid?
+      puts "hitting here?"
       @status = "rejected"
       "Transaction rejected. Please check your account balance."
     else
