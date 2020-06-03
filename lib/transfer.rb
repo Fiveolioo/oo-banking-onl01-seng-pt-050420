@@ -15,11 +15,6 @@ class Transfer
   end
   
   def execute_transaction
-    puts "what status #{@status}"
-    puts "what sender #{@sender}"
-    puts "sender status #{@sender.status}"
-    puts "sender balance #{@sender.balance}"
-    puts "what is amount #{@amount}"
     if @status == "complete"
       puts "Transaction was already excuted"
       
