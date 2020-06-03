@@ -16,6 +16,7 @@ class BankAccount
   end
   
   def valid?
+    puts "wut status #{@status} and now balance #{@balance}"
     @status == "open" && @balance > 0
   end
   
