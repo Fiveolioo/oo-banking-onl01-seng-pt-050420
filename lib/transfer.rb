@@ -20,6 +20,7 @@ class Transfer
     puts "sender status #{@sender.status}"
     puts "sender balance #{@sender.balance}"
     puts "hah? #{@sender.valid?}"
+    puts "what valid #{valid?}"
     if @status == "complete"
       puts "Transaction was already excuted"
       
